@@ -1,8 +1,8 @@
 #<?php
-$host = "localhost";
-$user = "root";
-$pass = "";
-$db = "tienda_ropa";
+$host = "mysql-mina.alwaysdata.net";
+$user = "mina";
+$pass = "mina1987";
+$db = "mina_gestiondeventas";
 
 $conn = new mysqli($host, $user, $pass, $db);
 

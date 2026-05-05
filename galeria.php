@@ -7,7 +7,6 @@ $producto = $conn->query($sql)->fetch_assoc();
 
 $sql_img = "SELECT * FROM imagenes WHERE producto_id = $id";
 $imagenes = $conn->query($sql_img);
-?>
 
 <!DOCTYPE html>
 <html>
@@ -24,10 +23,11 @@ $imagenes = $conn->query($sql_img);
 <div class="galeria">
 <?php while($img = $imagenes->fetch_assoc()) { ?>
     <img src="<?php echo $img['ruta']; ?>" alt="">
-<?php } ?>
+
 </div>
 
 <a href="index.php"><button>Volver</button></a>
 
 </body>
 </html>
+<?php } ?>

@@ -11,7 +11,7 @@
 <h1>Productos</h1>
 
 <div class="contenedor">
-<?php
+
 $sql = "SELECT * FROM productos";
 $result = $conn->query($sql);
 
@@ -28,7 +28,7 @@ while($row = $result->fetch_assoc()) {
             <button>Ver Galería</button>
         </a>
     </div>
-<?php } ?>
+<?php ?>
 </div>
 
 </body>

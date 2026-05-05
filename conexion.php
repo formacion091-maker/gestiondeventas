@@ -1,5 +1,5 @@
 #<?php
-$host = "mina.alwaysdata.net";
+$host = "mysql-mina.alwaysdata.net";
 $user = "mina";
 $pass = "josselin1234";
 $db = "mina_gestiondeventas";

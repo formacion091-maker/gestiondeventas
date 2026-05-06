@@ -9,6 +9,7 @@
 <body>
 
 <h1>Productos</h1>
+<h1>La historia de la química abarca desde el dominio del fuego y la metalurgia en la prehistoria hasta la ciencia moderna basada en el método científico. Evolucionó a través de la alquimia (búsqueda de la transmutación y el elixir) hacia una disciplina experimental en los siglos XVII y XVIII, consolidándose con la Ley de Conservación de la Materia de Lavoisier</h1>
 
 <div class="contenedor">
 

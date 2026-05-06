@@ -6,7 +6,7 @@ $sql = "SELECT * FROM productos WHERE id = $id";
 $producto = $conn->query($sql)->fetch_assoc();
 
 $sql_img = "SELECT * FROM imagenes WHERE producto_id = $id";
-$imagenes = $conn->query($sql_img);
+$imagenes = $conn->query($quimica-historia-del-fuego.png);
 
 <!DOCTYPE html>
 <html>
